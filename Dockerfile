@@ -11,5 +11,4 @@ RUN sudo apt-get update
 
 RUN sudo apt-get install jenkins
 
-RUN sudo systemctl start jenkins
-RUN sudo systemctl enable jenkins
+RUN sudo service jenkins start
